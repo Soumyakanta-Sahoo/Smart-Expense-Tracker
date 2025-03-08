@@ -1,57 +1,79 @@
-# 📊 Smart Expense Tracker
+# Smart Expense Tracker
 
-A simple and efficient **expense tracking** web application to help users manage their finances effectively. Built with **HTML, CSS, and JavaScript**, this project is perfect for beginners looking to learn about **local storage and dynamic UI updates**.
+## 🚀 Overview
+Smart Expense Tracker is a beginner-friendly finance app that helps users **track expenses**, categorize spending, and receive **AI-driven budget recommendations**. This project is designed to help users take control of their finances with **simple, automated, and smart tracking**.
 
-## 🚀 Features
+## 🛠 Tech Stack
+- **Frontend:** React Native (for mobile) / React.js (for web)
+- **Backend:** Firebase / Node.js + Express / Flask
+- **Database:** Firebase Firestore / MongoDB
+- **AI Integration:** OpenAI API (for budget recommendations)
 
-- 📌 **Add, Edit, and Delete Expenses**
-- 📅 **Track Expenses by Date**
-- 📊 **Visual Representation of Spending**
-- 🏦 **Category-wise Expense Breakdown**
-- 💾 **Data Persistence with Local Storage**
-- 🎨 **Minimalistic and User-Friendly UI**
+## 📌 Features
+✅ **Add Expenses:** Users can manually log their expenses with categories (Food, Transport, Shopping, etc.).  
+✅ **Auto Categorization:** AI suggests categories based on the expense description.  
+✅ **Monthly Reports:** Visualize spending with charts & graphs.  
+✅ **Budget Suggestions:** AI provides budget insights based on past spending patterns.  
+✅ **Authentication:** Secure Google Sign-in.  
 
-## 🛠️ Tech Stack
+## 📂 Folder Structure
+```
+smart-expense-tracker/
+├── frontend/             # React or React Native frontend
+│   ├── src/
+│   ├── components/       # UI components
+│   ├── pages/            # Main app screens/pages
+│   ├── assets/           # Images, icons, etc.
+│   ├── App.js
+│   ├── index.js
+│   ├── package.json
+├── backend/              # Backend API (Node.js + Express / Flask)
+│   ├── models/           # Database models
+│   ├── routes/           # API routes
+│   ├── controllers/      # Business logic
+│   ├── app.js
+│   ├── package.json
+├── database/             # Firebase/MongoDB setup
+├── docs/                 # Documentation & setup guides
+└── README.md             # Project documentation
+```
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Storage:** Local Storage (for saving expense data)
+## 🎯 Getting Started
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/smart-expense-tracker.git
+cd smart-expense-tracker
+```
 
-## 📷 Screenshots
+### 2️⃣ Setup Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
 
-> (Add relevant screenshots here)
+### 3️⃣ Setup Backend
+```bash
+cd backend
+npm install
+node app.js
+```
 
-## 🚀 Getting Started
+### 4️⃣ Setup Firebase
+1. Create a Firebase project.
+2. Enable Firestore and Authentication.
+3. Add `firebaseConfig` to your frontend app.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/Soumyakanta-Sahoo/smart-expense-tracker.git
-   ```
-2. **Open `index.html` in your browser**
+## 🔥 Future Enhancements
+- ✅ **OCR-based receipt scanning** 📄
+- ✅ **Expense-sharing for groups** 👥
+- ✅ **Dark mode support** 🌙
+- ✅ **PWA Support for Web Version** 🌍
 
-## 🔧 How to Use
-
-1. **Add an Expense**: Enter the amount, category, and date, then click "Add Expense."
-2. **View Expenses**: All added expenses will be displayed in a table.
-3. **Edit or Delete**: Modify or remove any expense entry.
-4. **Visual Reports**: View a simple pie chart of your spending habits.
-
-## 📌 Future Improvements
-
-- 📱 **Mobile Responsiveness**
-- ☁️ **Cloud Database Integration**
-- 📊 **Advanced Analytics & Reports**
-- 🔔 **Budgeting & Alerts**
-
-## 🤝 Contributing
-
-Feel free to fork this repo and submit PRs to improve the project!
-
-## 📬 Contact
-
-For any queries or suggestions, reach out to me at:
-- 📧 [Email](mailto:acsoumyakanta@gmail.com)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/soumyakanta-sahoo-1573472a4)
+## 📜 License
+This project is licensed under the **MIT License**.
 
 ---
 
-⭐ **Star the repo if you find it useful!** 🚀
+💡 **Contributions are welcome!** Feel free to fork this repo and submit PRs! 🚀
+
